@@ -10,3 +10,13 @@ h2{
     height: 100vh;
     background-image: linear-gradient( rgb(255, 255, 255), blue);
 }
+.menu{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.menu a{
+ color: beige; 
+ text-decoration: none;
+ font-size: 24px;
+}
