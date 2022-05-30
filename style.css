@@ -1,22 +1,40 @@
-h1{
+h1 {
     color: cyan;
 }
-h2{
+
+h2 {
     background-color: brown;
 }
-.bg{
+
+.bg {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    background-image: linear-gradient( rgb(255, 255, 255), blue);
+    background-image: linear-gradient(rgb(255, 255, 255), blue);
 }
-.menu{
+
+.menu {
     display: flex;
     gap: 50px;
     list-style: none;
 }
-.menu a{
- color: beige; 
- text-decoration: none;
- font-size: 24px;
+
+.menu a {
+    color: beige;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.box {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
